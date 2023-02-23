@@ -3,7 +3,7 @@ import React from 'react'
 const Step2 = () => {
   return (
     <div className='w-full flex flex-col items-center'>
-        <button className=' rounded-[100rem] w-16 h-16 border-[#43946F] bg-[#0E1A33] w-fit border-2'>2</button>
+        <button className=' rounded-[100rem] w-16 h-16 border-[#43946F] bg-[#15231D] w-fit border-2 text-2xl text-[#43946F]'>2</button>
         <h1 className='text-[#43946F] text-2xl mt-12 mb-5'>Up and Running</h1>
         <h1 className="text-5xl"> Iterate and Accelerate  </h1>
         <div className="bg-[#43946F] w-6 h-[2px] my-8 relative">
@@ -32,7 +32,7 @@ const Step2 = () => {
   )
 }
 const Card=({heading,desc,img})=>{
-    return <div className="border-[#43946F] border rounded-lg py-12 px-8 relative max-w-[400px] green-shadow mb-8">
+    return <div className="border-[#43946F] border rounded-lg py-12 px-8  pr-[20%] min-h-[270px] relative max-w-[400px] green-shadow mb-8">
         <h1 className='text-[#94D1B4] mb-8 text-3xl'>{heading}</h1>
         <p className="text-slate-400">{desc}</p>
     </div>
