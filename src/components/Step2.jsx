@@ -10,8 +10,8 @@ const Step2 = () => {
         </div>
         <div className="flex items-stretch max-w-[75%]">
             <div className="flex flex-col items-center">
-                <Card heading={"Solid Base"} desc={"Start from scratch or pick a template to deploy instantly, from bots to blogs."}/>
-                <Card heading={"Infrastructure as Legos"} desc={"Add a cron job, a database, or another (micro)service! Railway grows with your application."}/>
+                <Card heading={"Automagic Builds"} desc={"Say Bye to CI. Every push is built and deployed, including dependent infrastructure."}/>
+                <Card heading={"Multiple Environments"} desc={"Evolve your application over time, with fork joinable environments."}/>
             </div>
             <div className="h-[500px] w-6 green-track mx-3 ml-8 relative">
             <img src="https://railway.app/illustrations/trains/02-train-b-dark.svg"  className='absolute top-10 left-0 top-[20%] w-full' alt="" />
@@ -24,8 +24,8 @@ const Step2 = () => {
 
             </div>
             <div className="flex flex-col items-center">
-                <Card heading={"Solid Base"} desc={"Start from scratch or pick a template to deploy instantly, from bots to blogs."}/>
-                <Card heading={"Infrastructure as Legos"} desc={"Add a cron job, a database, or another (micro)service! Railway grows with your application."}/>
+                <Card heading={"Invite your team"} desc={"Better, together. Onboard your team with invite links and user role scopes."}/>
+                <Card heading={"Deployment Rollbacks"} desc={"Avoid derailments. One-click, instant rollbacks for every change."}/>
             </div>
         </div>
     </div>
